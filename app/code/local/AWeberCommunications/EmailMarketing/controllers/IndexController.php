@@ -1,7 +1,7 @@
 <?php
 
 /* AWeber Magento API Integration
- * AWeber Communications, Inc
+ * (C) AWeber Communications, Inc
  *
  * IndexController.php
  *

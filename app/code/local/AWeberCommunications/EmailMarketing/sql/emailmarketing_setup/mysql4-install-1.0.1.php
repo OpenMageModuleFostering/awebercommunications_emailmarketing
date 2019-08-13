@@ -1,5 +1,6 @@
 <?php
  /* Install Script
+  * (C) AWeber Communications, Inc
   *
   * Refer to this tutorial for future use.
   * http://www.magentocommerce.com/knowledge-base/entry/magento-for-dev-part-6-magento-setup-resources/

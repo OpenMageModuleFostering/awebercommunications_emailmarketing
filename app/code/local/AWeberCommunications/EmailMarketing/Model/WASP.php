@@ -1,25 +1,6 @@
 <?php
-/* AWeber   " ,  ,
- * Public API  ", ,
- *                ""     _---.    ..;%%%;, .
- * W ebhooks        "" .",  ,  .==% %%%%%%% ' .
- * A dd               "", %%%   =%% %%%%%%;  ; ;-_
- * S ubscriber        %; %%%%%  .;%;%%%"%p ---; _  '-_
- * P rocessor         %; %%%%% __;%%;p/; O        --_ "-,_
- *                     q; %%% /v \;%p ;%%%%%;--__    "'-__'-._
- *                     //\\" // \  % ;%%%%%%%;',/%\_  __  "'-_'\_
- *                     \  / //   \/   ;%% %; %;/\%%%%;;;;\    "- _\
- *                        ,"             %;  %%;  %%;;'  ';%       -\-_
- *                   -=\="             __%    %%;_ |;;    %%%\          \
- *                                   _/ _=      \==_;;,_ %%%; % -_      /
- *                                  / /-          =%- ;%%%%; %%;  "--__/
- *                                 //=             ==%-%%;  %; %
- *                                 /             _=_-  d  ;%; ;%;
- *                                 \            =,-"    d%%; ;%%;
- *                                             //        %  ;%%;
- *                                            //          d%%%"
- *                                             \           %%
- *                                                         V
+/* AWeber Magento API Integration
+ * (C) AWeber Communications, Inc
  *
  * Usage:
  *
@@ -37,7 +18,6 @@
  *
  * SHOPPING CART functions
  *    public function waspProducts()
- *
  */
 
 require_once(dirname(__FILE__) . "/AWeber.php");

@@ -1,7 +1,7 @@
 <?php
 
 /* AWeber Magento API Integration
- * AWeber Communications, Inc
+ * (C) AWeber Communications, Inc
  *
  * Default Helper
  *
@@ -70,7 +70,6 @@ DATA;
            <h2 class="no_margin">AWeber Email Marketing</h2>
            <p>Control how your store is integrated with AWeber! <br />
               From here you can choose which list your customers are subscribed to when they purchase items from your store.<br />
-              For more information, please refer to [URL TO FAQ ARTICLE] <br />
            </p>
          </div>
 
@@ -232,7 +231,6 @@ DATA;
            <h2 class="no_margin">AWeber Email Marketing</h2>
            <p>Control how your store is integrated with AWeber! <br />
               From here you can choose which list your customers are subscribed to when they purchase items from your store.<br />
-              For more information, please refer to [URL TO FAQ ARTICLE] <br />
            </p>
          </div>
 

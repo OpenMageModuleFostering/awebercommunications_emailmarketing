@@ -1,18 +1,22 @@
 <?xml version="1.0"?>
 <package>
     <name>AWeberCommunications_EmailMarketing</name>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <stability>stable</stability>
-    <license>Massachusetts Institute of Technology License (MITL)</license>
+    <license uri="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause</license>
     <channel>community</channel>
     <extends/>
     <summary>Subscribe customers to your AWeber list when they purchase items from your store</summary>
-    <description>Subscribe customers to your AWeber list when they purchase items from your store</description>
-    <notes>Compatible with newest version of PHP</notes>
-    <authors><author><name>AWeber Communications, Inc</name><user>aweber</user><email>api@aweber.com</email></author></authors>
-    <date>2013-07-26</date>
-    <time>17:26:14</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="AWeberCommunications_EmailMarketing.xml" hash="40fb5e448860285bce27641906203b66"/></dir></target><target name="magelocal"><dir name="AWeberCommunications"><dir name="EmailMarketing"><dir name="Helper"><file name="Data.php" hash="b2054e7cec60fbfd4d78b45a4d9661cf"/></dir><dir name="Model"><file name="AWeber.php" hash="5f2faa5f878c360292a68a98959b851a"/><file name="Config.php" hash="666fac5e33e69e20c1ca46799fa9bb14"/><dir name="Mysql4"><file name="Config.php" hash="1f24a3d611c90de9b1ec7263f588aed4"/><dir name="Queue"><file name="Collection.php" hash="2c729503096768bc90f77461a4ae5108"/></dir><file name="Queue.php" hash="41d8369d9c9e97c8da8ec809a046cd00"/></dir><file name="Observer.php" hash="4d52a4f398813c34816552ee2e6c6491"/><file name="Queue.php" hash="75565e39dfdc3e6c0ba2dffe21a26707"/><dir name="Resource"><dir name="Mysql4"><file name="Setup.php" hash="b20875d0523e0f7ea67d0e2fcaa275ad"/></dir></dir><file name="WASP.php" hash="9abfbd33f1174fbdfa6101cc9b293c10"/><file name=".Observer.php.swp" hash="b9f06c31c586e08c0d4ef049ae8754d5"/></dir><dir name="controllers"><file name="AdminController.php" hash="7b3023369fa99adf55379b1e33c7bc84"/><file name="IndexController.php" hash="9c5e5df28f5ef1fd53a91c979f960ca9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="8f0a880ae6667d5dc5d2b0e22ee4e62a"/><file name="config.xml" hash="5cfc73ca2ea19caef049880977974f46"/></dir><dir name="sql"><dir name="emailmarketing_setup"><file name="mysql4-install-1.0.0.php" hash="6312b611f306ed2f9639ee847b12bcb7"/><file name="mysql4-install-1.0.1.php" hash="3ad5a1b8954383c11093fd8a89dc9454"/><file name="mysql4-upgrade-1.0.0-1.0.1.php" hash="d451bd3ce9f3836973a6b315457c94ad"/></dir></dir></dir></dir></target></contents>
+    <description>AWeber Email Marketing&#xD;
+&#xD;
+Subscribe customers to your AWeber list when they purchase products in your store. Once installed, you can configure this plugin by clicking the 'AWeber Email Marketing' Tab when logged into the admin section.&#xD;
+&#xD;
+For more information, please see https://help.aweber.com/entries/21855623-how-do-i-integrate-magento-with-aweber.</description>
+    <notes>Compatibility changes.</notes>
+    <authors><author><name>AWeber Communications, Inc.</name><user>aweber</user><email>api@aweber.com</email></author></authors>
+    <date>2015-11-03</date>
+    <time>19:57:13</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="AWeberCommunications_EmailMarketing.xml" hash="40fb5e448860285bce27641906203b66"/></dir></target><target name="magelocal"><dir name="AWeberCommunications"><dir name="EmailMarketing"><dir name="Helper"><file name="Data.php" hash="74329abdb7b9306c9f6f613230768c12"/></dir><file name="LICENSE" hash="e93bcb94db6e89eb7376ea432915b0f2"/><dir name="Model"><file name="AWeber.php" hash="5aa276cab5921a741e4b02457ab8f307"/><file name="Config.php" hash="134dc961ebd9fd2db575cb3499c4dbd1"/><dir name="Mysql4"><file name="Config.php" hash="bc214e0e28864060c774f2a6fb6d154a"/><dir name="Queue"><file name="Collection.php" hash="7ebb3294faf0435b3de995a8ed81e542"/></dir><file name="Queue.php" hash="6d994f8cd9f88414ca9abb8054d093c7"/></dir><file name="Observer.php" hash="c0b7dc3390ac15541dee25c8b2429f9a"/><file name="Queue.php" hash="87952ee88612087415c44fc7aa9b2193"/><dir name="Resource"><dir name="Mysql4"><file name="Setup.php" hash="5c0ca65f13dff4a1d5947f047cc2a453"/></dir></dir><file name="WASP.php" hash="115e297c6e02c7e237bc20cfd779d4fd"/></dir><dir name="controllers"><file name="AdminController.php" hash="22c8a6d878f1c998159b04663c2afb71"/><file name="IndexController.php" hash="d03e54e6fd5f1beb82ec48582e100574"/></dir><dir name="etc"><file name="adminhtml.xml" hash="8f0a880ae6667d5dc5d2b0e22ee4e62a"/><file name="config.xml" hash="80546d78efd52e70bdda41805e45329c"/></dir><dir name="sql"><dir name="emailmarketing_setup"><file name="mysql4-install-1.0.0.php" hash="9a5db9e8c3c4f9ed3a12c2203f697a72"/><file name="mysql4-install-1.0.1.php" hash="f0beecfac227c65bec5ac7cce330f110"/><file name="mysql4-upgrade-1.0.0-1.0.1.php" hash="3a0bf38bc9bdc1dd54c29035d33e30bd"/></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>5.9.1</max></php></required></dependencies>
 </package>

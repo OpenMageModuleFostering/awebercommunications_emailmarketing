@@ -1,7 +1,7 @@
 <?php
 
 /* AWeber Magento API Integration
- * AWeber Communications, Inc
+ * (C) AWeber Communications, Inc
  *
  * AWeber API - Client Library
  *
@@ -494,7 +494,7 @@ class OAuthApplication implements AWeberOAuthAdapter {
      * @return void         Encoded data
      */
     protected function encode($data) {
-        return rawurlencode(utf8_encode($data));
+        return rawurlencode($data);
     }
 
     /**

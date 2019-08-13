@@ -1,7 +1,7 @@
 <config>
     <modules>
         <AWeberCommunications_EmailMarketing>
-            <version>1.0.2</version>
+            <version>1.0.4</version>
         </AWeberCommunications_EmailMarketing>
     </modules>
 
@@ -37,6 +37,7 @@
                 <use>admin</use>
                 <args>
                     <module>AWeberCommunications_EmailMarketing</module>
+                    <frontName>emailmarketing</frontName>
                 </args>
             </emailmarketing>
         </routers>

@@ -1,12 +1,12 @@
 {
     "name": "OpenMageModuleFostering/AWeberCommunications_EmailMarketing",
     "type": "magento-module",
-    "license": "Massachusetts-Institute-of-Technology-License-(MITL)",
+    "license": "BSD-3-Clause",
     "homepage": "",
     "description": "Subscribe customers to your AWeber list when they purchase items from your store",
     "authors": [
     {
-        "name": "AWeber Communications, Inc",
+        "name": "AWeber Communications, Inc.",
         "email": "api@aweber.com"
     }
 ],
