@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/AWeberCommunications_EmailMarketing",
+    "name": "OpenMageModuleFostering\/AWeberCommunications_EmailMarketing",
     "type": "magento-module",
     "license": "BSD-3-Clause",
     "homepage": "",
     "description": "Subscribe customers to your AWeber list when they purchase items from your store",
     "authors": [
-    {
-        "name": "AWeber Communications, Inc.",
-        "email": "api@aweber.com"
-    }
-],
+        {
+            "name": "AWeber Communications, Inc.",
+            "email": "api@aweber.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
